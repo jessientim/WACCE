@@ -4,12 +4,16 @@
     hyphens: auto;
 }
 
-@media only screen and (min-device-width:320px) and ((max-device-width: 1197px) .navbar-brand>img {
+@media only screen and (min-device-width:320px) and ((max-device-width: 1197px)
+/*for mobile and tablets*/
+
+@media only screen and (min-device-width:320px) and (max-device-width:725) .navbar-brand>img {
     width: 80px;
     height: auto;
 }
+
 .button {
-    background-color:green;
+    background-color: green;
     border: none;
     padding: 15px 32px;
     text-align: center;
@@ -67,7 +71,6 @@
 
 .flags a {
     display: block;
-   
 }
 
 #HEADINGS {
@@ -78,8 +81,8 @@
     padding: 13px;
     margin: 0px;
 }
-.flag img{
-    width:75px;
-    height:50px;
-}
 
+.flag img {
+    width: 75px;
+    height: 50px;
+}
